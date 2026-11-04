@@ -1,0 +1,9 @@
+stress_test,truth,level,n,correct_rate,unresolved_rate,opposite_error_rate
+depth_downsampling,abundance,0.1,150,0.7533333333333333,0.24666666666666667,0.0
+depth_downsampling,abundance,0.25,150,0.7133333333333334,0.2866666666666667,0.0
+depth_downsampling,abundance,0.5,150,0.7,0.3,0.0
+depth_downsampling,abundance,1.0,150,0.62,0.38,0.0
+depth_downsampling,state,0.1,150,1.0,0.0,0.0
+depth_downsampling,state,0.25,150,1.0,0.0,0.0
+depth_downsampling,state,0.5,150,1.0,0.0,0.0
+depth_downsampling,state,1.0,150,1.0,0.0,0.0
