@@ -1,0 +1,4 @@
+tnbc-measurement-route-qualification-v1.0.zip
+SHA-256: 2b34ef0cdd8c29f5c2ca2ebb98a41bc8befd4405c457b3d823be4012a930c066
+Validated self-test: PASS
+Validated on: 2026-11-04
