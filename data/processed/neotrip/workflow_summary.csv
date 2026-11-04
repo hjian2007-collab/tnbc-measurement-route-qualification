@@ -1,0 +1,4 @@
+Workflow,Candidates_tested,Generic_response_hits,Measurement_mismatched_hits,Multiplicity
+Naive bulk,23,12,4,BH across 23
+Cell-composition-adjusted bulk,23,1,1,BH across 23
+MRQ route-matched,8,8,0,BH across 8 route-compatible signatures
