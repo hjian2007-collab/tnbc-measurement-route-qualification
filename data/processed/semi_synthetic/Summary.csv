@@ -1,0 +1,18 @@
+Phase 3 — Conventional bulk vs measurement-aware benchmark,Unnamed: 1,Unnamed: 2
+,,
+Key result,Value,Interpretation
+"Matched generic-response detection, measurement-aware BH8",91.7%,True matched signal preserved
+"Matched generic-response detection, conventional BH23",91.0%,Minimal power difference
+"Any mismatched proxy selected, synthetic effect scenario",91.3%,Correlated proxies commonly inherit outcome association
+Mean mismatched proxy hits per replicate,8.31,Traditional bulk workflow broadens non-interpretable hit list
+Mean fraction of selected calls represented by mismatched proxies,79.9%,Selected calls are predominantly mismatched under the calibrated effect-present scenario
+Top-ranked candidate is mismatched proxy,57.7%,Ranking can favor the wrong measurement object
+Complete-null any mismatched BH23 discovery,2.3%,Classical Type-I/FDR behavior remains controlled
+NeoTRIP conventional all-bulk generic hits,12/23,BH-FDR across all 23
+NeoTRIP mismatched hits among conventional hits,4/12 (33.3%),One third of hits are state/unresolved forced-bulk objects
+NeoTRIP all-bulk treatment interactions,0/23,No treatment-selection evidence; minimum q=0.341
+,,
+,,
+Decision,CONDITIONAL GO,"Phase 3 supports interpretive specificity, not improved predictive accuracy"
+,,
+Central conclusion,"Measurement qualification preserves matched-signal detection while preventing correlated, measurement-mismatched bulk proxies from being promoted as biologically equivalent biomarkers.",
