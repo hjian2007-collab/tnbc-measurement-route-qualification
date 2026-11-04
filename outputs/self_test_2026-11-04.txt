@@ -1,0 +1,2 @@
+Verified: registry, raw benchmark, NeoTRIP, semi-synthetic, I-SPY2
+Archive self-test complete: all headline checks passed.
