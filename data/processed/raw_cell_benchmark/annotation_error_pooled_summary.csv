@@ -1,0 +1,11 @@
+stress_test,truth,level,n,correct_rate,unresolved_rate,opposite_error_rate
+annotation_error,abundance,0.0,150,0.64,0.36,0.0
+annotation_error,abundance,0.02,150,0.6066666666666667,0.3933333333333333,0.0
+annotation_error,abundance,0.05,150,0.4066666666666667,0.5933333333333334,0.0
+annotation_error,abundance,0.1,150,0.15333333333333332,0.82,0.02666666666666667
+annotation_error,abundance,0.2,150,0.013333333333333334,0.6666666666666666,0.32
+annotation_error,state,0.0,150,1.0,0.0,0.0
+annotation_error,state,0.02,150,1.0,0.0,0.0
+annotation_error,state,0.05,150,1.0,0.0,0.0
+annotation_error,state,0.1,150,1.0,0.0,0.0
+annotation_error,state,0.2,150,1.0,0.0,0.0
