@@ -1,0 +1,10 @@
+signature,truth,n,Abundance_call,State_call,Unresolved_call
+Bassez_CD8_Expansion5,abundance,100,100,0,0
+Bassez_CD8_Expansion5,state,100,0,100,0
+Bassez_CD8_Expansion5,mixed,100,0,1,99
+Zhang_CXCL9_MMP9_R3,abundance,100,72,0,28
+Zhang_CXCL9_MMP9_R3,state,100,0,100,0
+Zhang_CXCL9_MMP9_R3,mixed,100,0,1,99
+Croizer_ECMmyCAF2,abundance,100,100,0,0
+Croizer_ECMmyCAF2,state,100,0,100,0
+Croizer_ECMmyCAF2,mixed,100,0,0,100
