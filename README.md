@@ -3,11 +3,13 @@
 This versioned archive accompanies the Nature Communications manuscript:
 **Measurement route qualification links biological identity to clinical interpretation of transcriptomic biomarkers**.
 
+Public repository: https://github.com/hjian2007-collab/tnbc-measurement-route-qualification
+
 ## Scope
 
-The archive provides a submission-facing reproducibility layer for the frozen 23-signature registry, the MRQ audit trail, controlled raw-cell benchmark outputs, NeoTRIP three-workflow comparator, calibrated semi-synthetic benchmark, and I-SPY2 cohort-level workflow evaluation.
+The repository provides a submission-facing reproducibility layer for the frozen 23-signature registry, the MRQ audit trail, controlled raw-cell benchmark outputs, NeoTRIP three-workflow comparator, calibrated semi-synthetic benchmark, and I-SPY2 cohort-level workflow evaluation.
 
-The archive intentionally does **not** redistribute third-party patient-level raw data. Public source datasets should be obtained from their original repositories. Processed submission-facing tables are included to permit audit and independent verification of the reported headline results.
+The repository intentionally does **not** redistribute third-party patient-level raw data. Public source datasets should be obtained from their original repositories. Processed submission-facing audit tables are included to permit verification of the reported headline results. The complete binary archive used for release/Zenodo deposition is retained separately as `tnbc-measurement-route-qualification-v1.0.zip`.
 
 ## Governance boundary
 
@@ -22,7 +24,7 @@ See `config/analysis_lock_manifest.md` for the complete lock hierarchy.
 
 ## Reproduce the audit
 
-From the archive root:
+From the repository root:
 
 ```bash
 python -m pip install -r environment/requirements.txt
@@ -35,32 +37,31 @@ Expected final line:
 Archive self-test complete: all headline checks passed.
 ```
 
-The self-test verifies the canonical registry hash and the submission-facing headline results used in Figures 1, 3 and 6, and audits source tables supporting Figures 2, 4 and 5.
+The self-test verifies the canonical registry hash and the submission-facing headline results used in Figures 1, 3 and 6.
 
 ## Directory structure
 
 ```text
-config/                         registry and analysis-lock metadata
-data/processed/source_tables/   manuscript-wide processed source workbook
+config/                         frozen registry and analysis-lock metadata
 data/processed/raw_cell_benchmark/
 data/processed/neotrip/
 data/processed/ispy2/
 data/processed/semi_synthetic/
-environment/                    requirements
-manifests/                      figure-to-data/code mapping
-outputs/                        expected headline results
+environment/                    validated requirements/runtime
+manifests/                      analysis and manuscript-version mapping
+outputs/                        expected headline results and self-test log
 scripts/python/                 verification implementation
 tests/                          one-command self-test
 ```
 
 ## Important interpretation boundary
 
-This archive reproduces and verifies the reported analyses. It does not convert the retrospective outcome-blind MRQ formalization into a prospectively preregistered clinical classifier. A statistically significant bulk association is not automatically a route-valid measurement of the biological object implied by its label.
+This repository reproduces and verifies the reported headline analyses. It does not convert the retrospective outcome-blind MRQ formalization into a prospectively preregistered clinical classifier. A statistically significant bulk association is not automatically a route-valid measurement of the biological object implied by its label.
 
 ## License
 
-Custom code in this archive is released under the MIT License. Third-party datasets remain subject to their original terms.
+Custom code in this repository is released under the MIT License. Third-party datasets remain subject to their original terms.
 
-## Public release
+## Release status
 
-The GitHub repository URL and Zenodo DOI will be inserted into `CITATION.cff` and the manuscript Code availability statement after public release.
+Repository v1.0 content is prepared and verified. A GitHub Release `v1.0` and Zenodo DOI are the remaining publication steps. The DOI will then be inserted into `CITATION.cff` and the manuscript Code availability statement.
