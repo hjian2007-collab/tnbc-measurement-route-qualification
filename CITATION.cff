@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this archive, please cite the associated manuscript and the versioned archive DOI."
+title: "TNBC Measurement Route Qualification code and audit archive"
+version: "1.0.0"
+date-released: 2026-11-04
+authors:
+  - family-names: Huang
+    given-names: Jian
+license: MIT
+repository-code: "TO_BE_REPLACED_WITH_GITHUB_URL"
+doi: "TO_BE_REPLACED_WITH_ZENODO_DOI"
