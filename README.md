@@ -64,4 +64,4 @@ Custom code in this repository is released under the MIT License. Third-party da
 
 ## Release status
 
-Repository v1.0 content is prepared and verified. A GitHub Release `v1.0` and Zenodo DOI are the remaining publication steps. The DOI will then be inserted into `CITATION.cff` and the manuscript Code availability statement.
+Repository v1.0 has been released and archived in Zenodo. Version-specific DOI: `10.5281/zenodo.23939311`. Concept DOI for all versions: `10.5281/zenodo.23939310`.
