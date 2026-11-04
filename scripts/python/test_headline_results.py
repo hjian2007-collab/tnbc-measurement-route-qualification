@@ -50,9 +50,8 @@ def check_neotrip():
 
 def check_semisynthetic():
     s=(ROOT/"data/processed/semi_synthetic/Summary.csv").read_text(encoding="utf-8")
-    r=(ROOT/"data/processed/semi_synthetic/Phase3_benchmark_report.md").read_text(encoding="utf-8")
     for t in [91.7,91.0,91.3,79.9,57.7,2.3]:
-        assert f"{t:.1f}%" in s or f"{t:.1f}%" in r, t
+        assert f"{t:.1f}%" in s, t
     return "semi-synthetic"
 
 def check_ispy2():
