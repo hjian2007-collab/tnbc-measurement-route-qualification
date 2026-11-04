@@ -1,0 +1,9 @@
+display_item,analysis,input,script,headline_output
+Figure 1,MRQ development and routing specification,config/TNBC_ImmuneStromal_LockedRegistry_v1.0.xlsx; config/analysis_lock_manifest.csv,scripts/python/test_headline_results.py,route counts; registry hash; lock audit
+Figure 2,single-cell source portability and measurement identity,data/processed/source_tables/TNBC_Supplementary_Tables_and_SourceData.xlsx,scripts/python/test_headline_results.py,source portability; ADI/SSI; localization summaries
+Figure 3,controlled raw-cell route benchmark,data/processed/raw_cell_benchmark/*.csv,scripts/python/test_headline_results.py,route recovery; abstention; conflict/failure boundaries
+Figure 4,Bassez phenotype-linked route matching,data/processed/source_tables/TNBC_Supplementary_Tables_and_SourceData.xlsx,scripts/python/test_headline_results.py,bulk/abundance/state FDR-family summary
+Figure 5,temporal qualification,data/processed/source_tables/TNBC_Supplementary_Tables_and_SourceData.xlsx,scripts/python/test_headline_results.py,PC1/temporal boundaries; transfer gate
+Figure 6b-c,NeoTRIP three-workflow clinical consequence,data/processed/neotrip/*.csv,scripts/python/test_headline_results.py,12/23; 4 mismatched; adjusted workflow
+Figure 6d,semi-synthetic biological misprioritization,data/processed/semi_synthetic/Phase3_conventional_vs_measurement_aware_benchmark.xlsx,scripts/python/test_headline_results.py,91.7/91.0; proxy selection; complete-null control
+Figure 6e-f,I-SPY2 cohort-level workflow evaluation,data/processed/ispy2/*.csv,scripts/python/test_headline_results.py,workflow counts; Hammerl interaction sensitivity
