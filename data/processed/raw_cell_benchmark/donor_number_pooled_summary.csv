@@ -1,0 +1,9 @@
+stress_test,truth,level,n,correct_rate,unresolved_rate,opposite_error_rate
+donor_number,abundance,6,150,0.58,0.41333333333333333,0.006666666666666667
+donor_number,abundance,8,150,0.6066666666666667,0.38,0.013333333333333334
+donor_number,abundance,12,150,0.6333333333333333,0.36666666666666664,0.0
+donor_number,abundance,16,150,0.6333333333333333,0.36666666666666664,0.0
+donor_number,state,6,150,1.0,0.0,0.0
+donor_number,state,8,150,1.0,0.0,0.0
+donor_number,state,12,150,1.0,0.0,0.0
+donor_number,state,16,150,1.0,0.0,0.0
