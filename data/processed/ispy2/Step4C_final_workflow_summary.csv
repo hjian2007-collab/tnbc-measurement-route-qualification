@@ -1,0 +1,6 @@
+Workflow,N,Tests,Generic_q05,Generic_q10,Interaction_q05
+Naïve bulk,114,23,0,9,0
+Cell-composition-adjusted bulk,114,23,0,0,0
+MRQ route-matched,114,8,4,5,1
+Composition-adjusted MRQ8 sensitivity,114,8,0,3,1
+Composition-adjusted GPL20078 sensitivity,85,8,0,0,0
