@@ -1,0 +1,26 @@
+{
+  "registry": {
+    "version": "TNBC-ImmuneStromal-LockedRegistry-v1.0",
+    "freeze_date": "2026-08-08",
+    "canonical_sha256": "d25800a0aa7f3cc2767e0607299e23e436fd2a60cd485dd774fd58cebf0eb136",
+    "routes": {"ecosystem": 7, "state": 9, "bulk": 1, "abundance": 0, "unresolved": 6}
+  },
+  "raw_cell_benchmark": {
+    "pure_correct": 572, "pure_total": 600, "pure_correct_fraction": 0.9533333333333334,
+    "opposite_route_errors": 0, "mixed_unresolved": 298, "mixed_total": 300,
+    "mixed_unresolved_fraction": 0.9933333333333333, "fifty_fifty_unresolved": 75, "fifty_fifty_total": 75
+  },
+  "neotrip": {"naive_hits": 12, "naive_mismatched_hits": 4, "adjusted_hits": 1, "mrq8_hits": 8},
+  "semi_synthetic": {
+    "measurement_aware_detection_pct": 91.7, "conventional_detection_pct": 91.0,
+    "any_mismatched_effect_present_pct": 91.3, "mismatched_selected_fraction_pct": 79.9,
+    "top_ranked_mismatched_pct": 57.7, "complete_null_any_mismatched_pct": 2.3
+  },
+  "ispy2": {
+    "n": 114, "naive_q05": 0, "naive_q10": 9, "mrq8_generic_q05": 4, "mrq8_generic_q10": 5,
+    "adjusted_all23_generic_q10": 0, "adjusted_mrq8_generic_q05": 0, "adjusted_mrq8_generic_q10": 3,
+    "hammerl_interaction_or": 0.166064, "hammerl_interaction_bh8_q": 0.038185,
+    "hammerl_adjusted_interaction_or": 0.154683, "hammerl_adjusted_interaction_bh8_q": 0.030883,
+    "hammerl_gpl20078_interaction_bh8_q": 0.086689
+  }
+}
