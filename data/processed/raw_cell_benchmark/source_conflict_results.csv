@@ -1,0 +1,4 @@
+signature,normal_source_r_median,normal_r_ge_0.80_rate,conflict_alternative_source,conflict_r_lt_0.80_rate
+Bassez_CD8_Expansion5,0.936,1.0,Myeloid,1.0
+Zhang_CXCL9_MMP9_R3,0.956,0.96,Fibroblast,1.0
+Croizer_ECMmyCAF2,0.966,1.0,B,1.0
